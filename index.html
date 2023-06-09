@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Charlotte Lund portfolio">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     <title>Portfolio | Charlotte Lund</title>
+    <script src="js/script.js"></script>
 </head>
 <header>
     <p>Portfolio | Charlotte Lund</p>
     <nav>
         <ul>
-            <li>about</li>
-            <li>my work</li>
-            <li>contact</li>
+            <li onclick="scrollToSection('.about')">about</li>
+            <li onclick="scrollToSection('.project')">my work</li>
+            <li onclick="scrollToSection('.contact_me')">contact</li>
         </ul>
     </nav>
 </header>
@@ -31,9 +33,9 @@
                     <p >Get in touch</p>
                 </div>
                 <div class="header-icon">
-                    <a href="https://github.com/chalund"><img src="images/icons/icons8-github-50.png" alt="github icon" id="icon"></a>
-                    <a href="https://www.instagram.com/superlottis"><img src="images/instagram.png" alt="instagram icon" id="icon"></a>
-                    <a href="https://www.linkedin.com/in/charlotte-lund-48419b249/"><img src="images/linkedin.png" alt="linkedin icon" id="icon"></a>
+                    <a href="https://github.com/chalund"><img src="icons/icons8-github-50.png" alt="github icon" id="icon"></a>
+                    <a href="https://www.instagram.com/superlottis"><img src="icons/instagram.png" alt="instagram icon" id="icon"></a>
+                    <a href="https://www.linkedin.com/in/charlotte-lund-48419b249/"><img src="icons/linkedin.png" alt="linkedin icon" id="icon"></a>
                 </div>
             </div>
             <div class="container-img">
@@ -50,41 +52,73 @@
             </div>
             <div class="cards">
                 <div id="card">
-                    <img src="images/exam.jpg" alt="#">
-                    <h3>Exam project</h3>
-                    <p>Blog about life in north-norway.</p>
+                    <img src="images/exam.jpg" alt="screenshot of blog homepage" id="card-img">
+                    <h3>Life above the arctic circle</h3>
+                    <div>
+                        <p>Description: Exam project</p>
+                        <p>A blog using WordPress as CMS and fetching the content from the WordPress API.</p>
+                        <div class="icon">
+                            <h4>Language</h4>
+                            <div>
+                                <img src="icons/icons8-html-48.png" alt="html-icon" id="icon-big">
+                                <img src="icons/icons8-css-48.png" alt="css icon" id="icon-big">
+                                <img src="icons/icons8-javascript-48.png" alt="javascript icon" id="icon-big">
+                            </div>
+                        </div>
+                    </div>
                     <div id="related-links">
                         <div class="cta-link">
-                            <a href="https://github.com/chalund/Exam-1.git">Github repo</a>
+                            <a href="https://github.com/chalund/Exam-1.git"><img src="./icons/icons8-github-24.png" alt="github icon">Github</a>
                         </div>
                         <div class="cta-link">
-                            <a href="https://lifeabove.netlify.app/">Live site</a>
+                            <a href="https://lifeabove.netlify.app/"><img src="icons/icons8-world-24.png" alt="world icon">Website</a>
                         </div>
                     </div>
                 </div>
                 <div id="card">
-                    <img src="images/reinydays.jpg" alt="#">
-                    <h3>Cross-course Project: Rainydays</h3>
-                    <p>Description, Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <img src="images/reinydays.jpg" alt="screenshot of Rainydays homepage" id="card-img">
+                    <h3>Rainydays</h3>
+                    <div class="card-text">
+                        <p>Description: Cross-course Project</p>
+                        <p>A responsive eCommerce website integrated with the WordPress WooCommerce API.</p>
+                        <div class="icon">
+                            <h4>Language</h4>
+                            <div>
+                                <img src="icons/icons8-html-48.png" alt="html-icon" id="icon-big">
+                                <img src="icons/icons8-css-48.png" alt="css icon" id="icon-big">
+                                <img src="icons/icons8-javascript-48.png" alt="javascript icon" id="icon-big">
+                            </div>
+                        </div> 
+                    </div>
                     <div id="related-links">
                         <div class="cta-link">
-                            <a href="https://github.com/chalund/Exam-1.git">Github repo</a>
+                            <a href="https://github.com/chalund/Exam-1.git"><img src="./icons/icons8-github-24.png" alt="github icon">Github</a>
                         </div>
                         <div class="cta-link">
-                            <a href="https://lifeabove.netlify.app/">Live site</a>
+                            <a href="https://lifeabove.netlify.app/"><img src="icons/icons8-world-24.png" alt="world icon">Website</a>
                         </div>
                     </div>
                 </div>
                 <div id="card">
-                    <img src="images/semester.jpg" alt="#">
-                    <h3>Semester Project</h3>
-                    <p>Description, Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <img src="images/semester.jpg" alt="screenshot of Community Science Museum homepage" id="card-img">
+                    <h3>Community Science Museum</h3>
+                    <div>
+                        <p>Description: Semester Project</p>
+                        <p>A responsive website that's built with only HTML and CSS.</p>
+                        <div class="icon icon-semester">
+                            <h4>Language</h4>
+                            <div class="card-text">
+                                <img src="icons/icons8-html-48.png" alt="html-icon" id="icon-big">
+                                <img src="icons/icons8-css-48.png" alt="css icon" id="icon-big">
+                            </div>
+                        </div>
+                    </div> 
                     <div id="related-links">
                         <div class="cta-link">
-                            <a href="https://github.com/chalund/Exam-1.git">Github repo</a>
+                            <a href="https://github.com/chalund/Exam-1.git"><img src="./icons/icons8-github-24.png" alt="github icon">Github</a>
                         </div>
                         <div class="cta-link">
-                            <a href="https://lifeabove.netlify.app/">Live site</a>
+                            <a href="https://lifeabove.netlify.app/"><img src="icons/icons8-world-24.png" alt="world icon">Website</a>
                         </div>
                     </div>
                 </div>
@@ -94,14 +128,14 @@
             <h2>About</h2>
             <p>I am Charlotte Lund, a frontend development student living in Sortland, located in Northern Norway. I have a strong passion for generating creative innovative ideas and implementing effective coding solutions.</p>
             <p>I strongly believe in delivering exceptional user experiences, understanding the importance of UX and UI design for all users.</p>
-            <div class="skills">
-                <h4>Current skills:</h4>
+            <div class="icon">
+                <h4>Current icon:</h4>
                 <div>
-                    <img src="images/icons/icons8-html-48.png" alt="html-icon" id="icon-big">
-                    <img src="images/icons/icons8-css-100.png" alt="css icon" id="icon-big">
-                    <img src="images/icons/icons8-javascript-48.png" alt="javascript icon" id="icon-big">
-                    <img src="images/icons/icons8-figma-48.png" alt="figma icon" id="icon-big">
-                    <img src="images/icons/icons8-wordpress-100.png" alt="wordpress icon" id="icon-big">
+                    <img src="icons/icons8-html-48.png" alt="html-icon" id="icon-big">
+                    <img src="icons/icons8-css-48.png" alt="css icon" id="icon-big">
+                    <img src="icons/icons8-javascript-48.png" alt="javascript icon" id="icon-big">
+                    <img src="icons/icons8-figma-48.png" alt="figma icon" id="icon-big">
+                    <img src="icons/icons8-wordpress-48.png" alt="wordpress icon" id="icon-big">
                 </div>
             </div>
         </section>
@@ -113,21 +147,14 @@
                 <div class="contact_me-text">
                     <h2>Contact me</h2>
                     <p>If you're a business owner looking to start a project, a developer wanting to collaborate, or just someone who wants to say hello, send me a message. Let's work together and bring your ideas to life!</p>
-                    <div class="cta-white">
-                        <img src="images/envelope.png" alt="envelope icon" id="icon">
+                    <div class="cta-pink">
+                        <img src="icons/envelope-pink.png" alt="envelope icon" id="icon">
                         <a href = "mailto: chalund@gmail.com">chalund@gmail.com</a>
                     </div>
                 </div>
             </div>
       
         </section>
-        <!-- <section>
-            <div>
-                    <a href="https://github.com/chalund"><img src="images/github.png" alt="github icon" id="icon"></a>
-                    <a href="https://www.instagram.com/superlottis"><img src="images/instagram.png" alt="instagram icon" id="icon"></a>
-                    <a href="https://www.linkedin.com/in/charlotte-lund-48419b249/"><img src="images/linkedin.png" alt="linkedin icon" id="icon"></a>
-            </div>
-        </section> -->
         <footer>
             <p>&copy; Copyright Charlotte Lund 2023</p>
         </footer>

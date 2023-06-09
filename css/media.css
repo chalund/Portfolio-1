@@ -3,14 +3,24 @@
     max-width: 1000px;
     margin: 0 auto;
     font-size: 20px;
+    }  
+
+    .contact_me-content{
+        font-size: 15px;
+    } 
+
+    #icon-small{
+        font-size: 12px
     }   
+    
+    
 
     h2{
     font-size: 36px;
     }   
 
     h3{
-    font-size: 22px;
+    font-size: 19px;
     }
 
     header{
@@ -46,6 +56,10 @@
     margin: 0px 0px 20px;
     }
 
+    .cta-pink{
+        margin: 0
+    }
+
     .welcome-text h1{
         font-size: 40px;
     }
@@ -56,7 +70,7 @@
     /* grid-gap: 30px; */
     margin: 0px 20px;
     max-width: 800px;
-    margin: 30px auto;
+    margin: 30px;
 }
 
 .welcome-text {
@@ -86,32 +100,39 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
 }
+
+#card p {
+    padding: 0;
+    font-size: 14px;
+ }
 
 .github-btn{
     display: inline-block;
     color: #fff;
     border: solid 1px #fff;
-    margin-left: 30px;
+    margin: 0 30px;
+}
 
+.github-btn p {
+    color: #B11C83;
+}
 
+.github-btn p:hover {
+    color: #fff;
 }
 
 .project h1 {
     text-align: left;
-
-  
-}
-
-.cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
 }
 
 
-}
+
+
+
+
 
 
 
@@ -123,13 +144,12 @@
 
 .about {
     max-width: 800px;
-    padding: 20px 0px;
 }
 
-h4{
+.about p {
     text-align: left;
-    margin-left: 15px;
 }
+
 
 
 
@@ -139,34 +159,42 @@ h4{
     max-width: 50px;
 }
 
-.skills {
+.icon {
     display: flex;
     align-items: center;
-    margin: 20px 0px;
+    margin-top: -10px;
 }
   
-.skills div {
+.icon div {
     display: flex;
     margin-left: 30px;
 }
   
-.skills img {
+.icon img {
     margin-right: 10px;
+    margin-top: -15px;
+}
+
+.icon-semester{
+    margin-top: 20px;
 }
 
 
-.contact_me-content{
+.contact_me-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 50px;
 }
+
+
 
 .contact_me-text {
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center; /* Center the content vertically */
-    align-items: center; /*
+    align-items: center;
+    margin-top: -40px; /*
      Center the content horizontally */
 }
 
@@ -183,5 +211,53 @@ h4{
 
 
 
+}
+
+@media (min-width: 850px) {
+    .welcome-section {
+        margin: 30px auto;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    #card {
+        width: 80%;
+        transition: scale 400ms;
+    }
+
+    .card-text {
+        margin-top: 42px;
+      }
+    
+    /*#card:hover {
+        scale: 110%;
+    }*/
+} 
+
+@media (min-width: 1024px) {
+.cards {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#card {
+    margin: 20px;
+    padding: 20px;
+    width: 80%;
+}
+
+.contact_me-text {
+    margin-top: -40px;
+    font-size: 20px;
+  }
+
+  .contact_me-content{
+    font-size: 15px;
+} 
+
 
 }
+
+
