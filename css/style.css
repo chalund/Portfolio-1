@@ -32,14 +32,14 @@ header, h1, h2, h3{
 }
 
 .cta-link:hover{
-    background-color: #B11C83;
+    background-color:#B11C83;
 }
 
 
 .cta{
     /* background-color: #000;
     color: #fff; */
-    margin: 40px auto 20px;
+    margin: 0px auto 20px;
 
     border: 1px solid rgb(195, 194, 194);
     text-align: center;
@@ -58,18 +58,33 @@ header, h1, h2, h3{
     align-items: center;
     justify-content: center;
     max-width: 250px;
-    padding: 0 10px;
+    padding: 10px;
     margin: 30px auto;
-    font-size:  12px;
+    font-size:  16px;
 }
 
 .cta-pink a {
     color: #fff;
 }
 
+.cta-pink:hover{
+    border: 1px solid #fff;
+    color: #fff;
+}
+
 .cta:hover{
     background-color: #B11C83;
     color: #fff;
+}
+
+
+.cta-link a {
+    display: flex;
+    align-items: center;
+}
+
+.cta-link img {
+    margin-right: 5px;
 }
 
 nav {
@@ -119,6 +134,12 @@ nav {
     padding: 5px 10px;
 }
 
+#icon-small{
+    width: 25px;
+    height: 25px;
+    padding: 5px 10px;
+}
+
 .github-btn{
     display: none;
 }
@@ -139,6 +160,7 @@ nav {
     justify-content: center;
     max-width: 700px;
     margin: 0 auto; 
+    padding: 0 10px;
 }
 
 .cards h2 {
@@ -175,7 +197,7 @@ nav {
 }
 
 .about {
-    padding: 0px 0px;
+    padding-bottom: 10px;
 }
 
 .about p{
