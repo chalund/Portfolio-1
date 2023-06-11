@@ -119,10 +119,12 @@
         color: #fff;
         border: solid 1px #fff;
         margin: 0 30px;
+        padding: 15px;
     }
 
     .github-btn a {
         color: #ec91f8;
+        font-weight: bold;
     }
 
     .github-btn a:hover {
