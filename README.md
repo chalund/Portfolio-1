@@ -16,9 +16,9 @@ Welcome to my portfolio! I'm Charlotte Lund, and I'm thrilled to share with you 
 
 ### Assignments from First Year at Noroff:
 
-- Exam Project: Life Above the Arctic Circle.  [Link Github Repositories](https://github.com/chalund/Rainydays-cross-course-project-.git) 
-- Cross-Course Project: Rainydays
-- First Semester Project: Community Science Museum
+- Exam Project: Life Above the Arctic Circle.  ([Link Github Repositories](https://github.com/chalund/Exam-1.git))
+- Cross-Course Project: Rainydays.  ([Link Github Repositories](https://github.com/chalund/Rainydays-cross-course-project-.git))
+- First Semester Project: Community Science Museum.  ([Link Github Repositories](https://github.com/chalund/Semesterproject-1.git))
 
 Feel free to explore these projects to get a glimpse of my skills and expertise. Each assignment has a live link, allowing you to experience the websites firsthand, and a GitHub repository link for a detailed view of the code.
 
