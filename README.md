@@ -1,6 +1,4 @@
 # Portfolio-1
-
-# Rainydays - The cross-course project
 ![Screenshot](./images/portfolio.png)
 
 ## Table of Contents
