@@ -121,11 +121,11 @@
         margin: 0 30px;
     }
 
-    .github-btn p {
-        color: #B11C83;
+    .github-btn a {
+        color: #ec91f8;
     }
 
-    .github-btn p:hover {
+    .github-btn a:hover {
         color: #fff;
     }
 
