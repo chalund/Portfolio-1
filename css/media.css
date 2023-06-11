@@ -195,7 +195,7 @@
 @media (min-width: 1024px) {
     .project-headline{
         max-width: 1150px;
-        margin: 0 auto;
+        margin: 0 auto 30px;
     }
 
     .cards {
