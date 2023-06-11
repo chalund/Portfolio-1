@@ -1,5 +1,5 @@
 @media (min-width: 480px) {
-    #card {
+    .card {
     margin: 10px 60px;
     }
 }
@@ -104,12 +104,12 @@
         text-align: left;
     }
 
-    #card {
+    .card {
         margin: 10px 60px;
     }
 
 
-    #card p {
+    .card p {
         padding: 0;
         font-size: 14px;
     }
@@ -201,7 +201,7 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
-    #card {
+    .card {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -213,15 +213,15 @@
         transition: scale 400ms;
     }
 
-    #card:hover {
+    .card:hover {
         scale: 110%;
         }
 
-    #card-img {
+    .card-img {
         height: 250px;
     }
 
-    #card  div {
+    .card div {
         margin-top: 10px;
     }
 

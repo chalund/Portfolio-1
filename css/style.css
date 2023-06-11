@@ -154,13 +154,13 @@ nav {
     
 }
 
-#card {
+.card {
     background-color: #fff;
     padding: 25px 15px 50px;
     margin: 10px;
 }
   
-#card-img {
+.card-img {
     display: inline;
     margin: 0 auto;
     width: 100%;
