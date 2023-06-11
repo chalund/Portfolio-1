@@ -1,3 +1,9 @@
+@media (min-width: 480px) {
+    #card {
+    margin: 10px 60px;
+    }
+}
+
 @media (min-width: 768px) {
     header, .welcome-section, .project h1, .cards, .about, .contact_me-content {
     max-width: 1000px;
@@ -100,14 +106,21 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    max-width: 1200px;
-    margin: 0 auto;
+ 
+    margin: 0 20px;
 }
+
+#card {
+    margin: 10px 60px;
+}
+
 
 #card p {
     padding: 0;
     font-size: 14px;
- }
+}
+
+
 
 .github-btn{
     display: inline-block;
@@ -218,44 +231,75 @@
         margin: 30px auto;
     }
 
+
+} 
+
+@media (min-width: 1024px) {
+
+    .project-headline{
+        max-width: 1150px;
+        margin: 0 auto;
+    }
+
     .cards {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-    
-    #card {
-        width: 80%;
-        transition: scale 400ms;
-    }
-
-    .card-text {
-        margin-top: 42px;
-      }
-    
-    /*#card:hover {
-        scale: 110%;
-    }*/
-} 
-
-@media (min-width: 1024px) {
-.cards {
-    grid-template-columns: repeat(3, 1fr);
-}
 
 #card {
-    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;
     padding: 20px;
     width: 80%;
+    width: 80%;
+    transition: scale 400ms;
 }
+
+#card:hover {
+    scale: 110%;
+    }
+
+
+#card-img {
+    height: 250px;
+}
+
+#card  div {
+    margin-top: 10px;
+}
+  
+  
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.icon div {
+    display: flex;
+    justify-content: space-between;
+  }
+  
 
 .contact_me-text {
     margin-top: -40px;
     font-size: 20px;
-  }
+}
 
-  .contact_me-content{
+.contact_me-content{
     font-size: 15px;
 } 
+
+
+
+  
+
+
+
+
 
 
 }
