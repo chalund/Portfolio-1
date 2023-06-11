@@ -44,7 +44,7 @@ This project only contain static files, will run on all devices
 Don't hesitate to get in touch if you have any questions or would like to discuss potential opportunities. I'm excited to connect with you and explore new possibilities together.
 
 Email: [chalund@gmail.com]
-Phone: [+47 99 53 63 93]
 
+[![gmail] (https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](chalund@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://pe.linkedin.com/in/charlotte-lund-48419b249/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chalund)
