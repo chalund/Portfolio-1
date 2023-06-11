@@ -113,13 +113,13 @@ nav {
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
 }
 
-.icon {
+.icon-size {
     width: 40px;
     max-height: 40px;
     padding: 5px 10px;
 }
 
-.icon-small{
+#icon-small{
     width: 25px;
     height: 25px;
     padding: 5px 10px;
